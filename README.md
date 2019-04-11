@@ -1,6 +1,6 @@
 # electron-python-experiement
 
-Run this code in order to initlize app. It install the npm requirements as well as create the virtual env folder for the python environment
+Run this code in order to initlize app. It installs the npm requirements as well as create the virtual env folder for the python environment
 
 ```
 npm install
