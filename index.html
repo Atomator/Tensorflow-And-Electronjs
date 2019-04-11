@@ -1,0 +1,22 @@
+<!-- HTML that is displayed within the Electron application -->
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>TensorFlow (Python3) with ElectronJS</title>
+  </head>
+  <body>
+    <h1>TensorFlow (Python3) with ElectronJS</h1>
+    <p>Using Node.js <script>document.write(process.versions.node)</script>,
+    Chromium <script>document.write(process.versions.chrome)</script>,
+    and Electron <script>document.write(process.versions.electron)</script>.</p>
+    <p>Input a value, x; and python will process the value in order to create a x by x tensor, then JavaScript will print the results into the application</p>
+    <p>Numbers larger than 100 and string will return an empty array []</p>
+    <input id="size" value="5"></input>
+    <div id="tensor"></div>
+  </body>
+
+  <script>
+    require('./renderer.js')
+  </script>
+</html>
