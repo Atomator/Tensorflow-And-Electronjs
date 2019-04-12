@@ -3,3 +3,4 @@ pydist/
 tensorflow-electronjs-darwin-x64/
 env/
 .vscode/
+package-lock.json
