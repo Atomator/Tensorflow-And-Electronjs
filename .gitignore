@@ -1,8 +1,4 @@
-api.spec
-.venv/
 node_modules/
-build/
-dist/
 pydist/
 tensorflow-electronjs-darwin-x64/
 env/

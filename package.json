@@ -12,7 +12,7 @@
     "zerorpc": "git+https://github.com/fyears/zerorpc-node.git"
   },
   "devDependencies": {
-    "electron": "^1.7.6",
+    "electron": "^4.1.4",
     "electron-packager": "^9.0.1",
     "electron-rebuild": "^1.8.4"
   }
