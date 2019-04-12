@@ -4,3 +4,6 @@ tensorflow-electronjs-darwin-x64/
 env/
 .vscode/
 package-lock.json
+build/
+api.spec
+.venv/
