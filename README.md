@@ -13,5 +13,7 @@ Run the app
 Run this code in order to create and package the application
 ```
 pyinstaller pytensor/api.py --distpath pydist
+rm -rf build/
+rm -rf api.spec
 ./node_modules/.bin/electron-packager . --overwrite --ignore="pytensor$" --ignore="env"
 ```
