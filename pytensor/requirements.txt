@@ -4,5 +4,4 @@ future
 msgpack-python
 gevent
 pyinstaller
-pypiwin32
 tensorflow
