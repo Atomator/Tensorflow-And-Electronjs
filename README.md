@@ -6,7 +6,6 @@ Run this code in order to initlize app. It installs the npm requirements as well
 npm install && ./node_modules/.bin/electron-rebuild
 python3 -m virtualenv env && source env/bin/activate && pip3 install -r pytensor/requirements.txt
 ```
-
 Run the app
 `./node_modules/.bin/electron .`
 
